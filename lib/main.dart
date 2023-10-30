@@ -1,11 +1,6 @@
 void main() {
   print("Hello World");
-  int number = 40;
-  int numberTwo = 10;
-  int sum;
 
-  sum = number + numberTwo;
-  print(sum);
   /*Print your all family name in ascending order 
 Create square shape with steric(*) 
 Create rectangle shape with steric(*)

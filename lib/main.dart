@@ -20,5 +20,39 @@ Program to print full pyramid using *
   print("Mr Husband");
   print("Mr Wifey");
 
-  //
+  print("\nMaking a Square with *\n");
+
+  print("******");
+  print("*    *");
+  print("*    *");
+  print("******");
+
+  print("\nMaking a Rectangle with *\n");
+
+  print("*******");
+  print("*     *");
+  print("*******");
+
+  print("\nMaking a Triangle with *\n");
+
+  print("     *      ");
+  print("    * *    ");
+  print("   *   *   ");
+  print("  *******  ");
+
+  print("\nMaking a Pentagon with *\n");
+
+  print("   ****   ");
+  print("  *    *   ");
+  print(" *      *  ");
+  print("  *    *  ");
+  print("   ****   ");
+
+  print("\nMaking a Pyramid with *\n");
+
+  print("      *      ");
+  print("     ***     ");
+  print("    *****     ");
+  print("   *******   ");
+  print("  *********  ");
 }

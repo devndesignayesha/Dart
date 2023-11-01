@@ -21,7 +21,7 @@ void main() {
 
   //understanding boolean variables
   bool islearning = true;
-  print("Is this user learning: $islearning");
+  print("\nIs this user learning: $islearning");
 
   bool isdoctor = false;
   print("Is this user a Dcotor: $isdoctor");
@@ -29,15 +29,33 @@ void main() {
   //understanding list
 
   List<int> age = [12, 23, 38, 21, 43];
-  print("This is the Age List: $age");
+  print("\nThis is the Age List: $age");
 
   //accessing elements from the list by their index number
 
   print("Element at 2:");
   print(age.elementAt(2));
 
-  print("Element at 3:");
+  print("\nElement at 3:");
   print(age.elementAt(3));
 
   print(age[0]);
+
+  //dynamic variables - they can change its type
+
+  dynamic dynamicvariable = 42;
+  print("\nDynamic Variable at initilization: $dynamicvariable");
+
+  dynamicvariable = "Changed";
+  print("Dynamic Variable after change: $dynamicvariable");
+
+  //If you never intend to change a variable, use final or const ,
+  //either instead of var or in addition to a type. A final variable can
+  //be set only once; a const variable is a compile-time constant.
+
+  final cityname = "Lahore";
+  print(cityname);
+
+  const countryname = "Pakistan";
+  print(countryname);
 }
